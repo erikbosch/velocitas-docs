@@ -2459,8 +2459,7 @@ The default behavior is predefined in
       <description>
         
         
-        &lt;h2 id=&#34;grpc-interface-style-guide&#34;&gt;GRPC Interface Style Guide&lt;/h2&gt;
-&lt;p&gt;This provides a style guide for .proto files. By following these conventions, you&amp;rsquo;ll make your protocol buffer message definitions and their corresponding classes consistent and easy to read.
+        &lt;p&gt;This provides a style guide for .proto files. By following these conventions, you&amp;rsquo;ll make your protocol buffer message definitions and their corresponding classes consistent and easy to read.
 Unless otherwise indicated, this style guide is based on the style guide from 
 
 &lt;a href=&#34;https://developers.google.com/protocol-buffers/docs/style&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google protocol-buffers style&lt;/a&gt;

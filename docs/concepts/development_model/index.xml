@@ -64,7 +64,7 @@
 &lt;p&gt;The Vehicle Model is a tree-based model where every branch in the tree, including the root, is derived from the &lt;code&gt;Model&lt;/code&gt; base class provided by the SDK.&lt;/p&gt;
 &lt;p&gt;The Vehicle Model Ontology consists of the following classes:&lt;/p&gt;
 &lt;h3 id=&#34;model&#34;&gt;Model&lt;/h3&gt;
-&lt;p&gt;A model contains services, data points and other models.&lt;/p&gt;
+&lt;p&gt;A model contains data points (leaves) and other models (branches).&lt;/p&gt;
 &lt;h3 id=&#34;modelcollection&#34;&gt;ModelCollection&lt;/h3&gt;
 
 

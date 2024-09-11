@@ -90,7 +90,7 @@
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/velocitas/offline-search-index.7c39915c02d2734b98165e709057f06b.json"
+    data-offline-search-index-json-src="/velocitas/offline-search-index.5e5eb88389a045f41b578b64b5e7c9f6.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -511,7 +511,11 @@ SDKs are available for Python and C++, currently. Further SDKs for Rust and C ar
 <p>The Velocitas SDK is using 
 
 <a href="https://covesa.github.io/vehicle_signal_specification/" target="_blank" rel="noopener">VSS</a>
- as the semantic model for the Vehicle Model.</p>
+ as the semantic model for the Vehicle Model.
+Vehicle Service models can be defined with 
+
+<a href="vehicle_app_manifest/interfaces/grpc_interface/">Protobuf service definitions</a>
+.</p>
 <h3 id="communication-protocols">Communication Protocols</h3>
 <p>Asynchronous communication between 
 
@@ -671,7 +675,7 @@ Favor fast startup and support graceful shutdowns to leave the system in a corre
 <p>The Vehicle Model is a tree-based model where every branch in the tree, including the root, is derived from the <code>Model</code> base class provided by the SDK.</p>
 <p>The Vehicle Model Ontology consists of the following classes:</p>
 <h3 id="model">Model</h3>
-<p>A model contains services, data points and other models.</p>
+<p>A model contains data points (leaves) and other models (branches).</p>
 <h3 id="modelcollection">ModelCollection</h3>
 
 
@@ -1565,8 +1569,7 @@ Service implementations may also interact as feeders with the Databroker.</p>
     
 	<h1 id="pg-be69a30793dcaab423894abfa578401a">1.2.1 - GRPC Interface Style Guide</h1>
     
-	<h2 id="grpc-interface-style-guide">GRPC Interface Style Guide</h2>
-<p>This provides a style guide for .proto files. By following these conventions, you&rsquo;ll make your protocol buffer message definitions and their corresponding classes consistent and easy to read.
+	<p>This provides a style guide for .proto files. By following these conventions, you&rsquo;ll make your protocol buffer message definitions and their corresponding classes consistent and easy to read.
 Unless otherwise indicated, this style guide is based on the style guide from 
 
 <a href="https://developers.google.com/protocol-buffers/docs/style" target="_blank" rel="noopener">google protocol-buffers style</a>

@@ -95,7 +95,11 @@ SDKs are available for Python and C++, currently. Further SDKs for Rust and C ar
 &lt;p&gt;The Velocitas SDK is using 
 
 &lt;a href=&#34;https://covesa.github.io/vehicle_signal_specification/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSS&lt;/a&gt;
- as the semantic model for the Vehicle Model.&lt;/p&gt;
+ as the semantic model for the Vehicle Model.
+Vehicle Service models can be defined with 
+
+&lt;a href=&#34;vehicle_app_manifest/interfaces/grpc_interface/&#34;&gt;Protobuf service definitions&lt;/a&gt;
+.&lt;/p&gt;
 &lt;h3 id=&#34;communication-protocols&#34;&gt;Communication Protocols&lt;/h3&gt;
 &lt;p&gt;Asynchronous communication between 
 
